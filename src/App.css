@@ -1,0 +1,30 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: rgb(31, 34, 68);
+    color: #fff
+}
+
+.App .container{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+
+}
+
+@media (max-width: 630px) {
+    .App .container{
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+    }
+}

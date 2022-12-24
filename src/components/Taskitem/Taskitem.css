@@ -1,0 +1,54 @@
+.task-item {
+    background-color: purple;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+    cursor: pointer;
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px 4px;
+    color: rgb(253, 253, 253);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .task-item input[type="text"] {
+    border: none;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+  }
+  
+  .task-item select {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .botao{
+    background-color: rgb(31, 34, 68);
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  .botao:hover{
+    background-color: rgb(110, 39, 98);
+  }
+
+  .Pendente{
+    color: rgb(163, 8, 8);
+  }
+  .Fazendo{
+    color: rgb(221, 188, 2);
+  }
+  .Completada{
+    color: rgb(73, 194, 73);
+  }
+  .Pendente, .Fazendo, .Completada{
+    font-weight: bold;
+  }

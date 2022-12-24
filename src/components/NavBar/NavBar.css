@@ -1,0 +1,24 @@
+
+.navbar{
+    display: flex;
+    
+    padding: 10px;
+    color: white;
+    
+    font-weight: bold;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 2em;
+    
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3em;
+    
+    font-family: "Arial"
+}
+
+img{
+    margin: 0 auto;
+}
